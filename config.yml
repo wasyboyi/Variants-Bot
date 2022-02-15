@@ -1,4 +1,4 @@
-token: "lip_mSgXW3x0wGR828kHbIpx"    # Lichess OAuth2 Token.
+token: "lip_Plvh7HsXZGvkaXQqECa5x"    # Lichess OAuth2 Token.
 url: "https://lichess.org/"  # Lichess base URL.
 
 engine:                      # Engine settings.
@@ -68,7 +68,7 @@ challenge:                   # Incoming challenges.
   max_base: 315360000        # Maximum amount of base time to accept a challenge. The max is 315360000 (10 years).
   min_base: 0                # Minimum amount of base time to accept a challenge.
   variants:                  # Chess variants to accept (https://lichess.org/variant).
-#   - standard
+    - standard
 #   - fromPosition
     - antichess
     - atomic
